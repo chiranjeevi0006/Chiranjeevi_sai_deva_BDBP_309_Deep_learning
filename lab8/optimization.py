@@ -145,7 +145,7 @@ print("Test Accuracy:",
       test_model(model_sgd))
 
 
-print("\n========== SGD + Momentum ==========")
+print(f"========== SGD + Momentum ==========")
 
 model_momentum = NeuralNetwork().to(device)
 
@@ -161,7 +161,7 @@ print("Test Accuracy:",
       test_model(model_momentum))
 
 
-print("\n========== AdaGrad ==========")
+print(f"========== AdaGrad ==========")
 
 model_adagrad = NeuralNetwork().to(device)
 
