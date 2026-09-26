@@ -130,7 +130,7 @@ def test_model(model):
     return accuracy
 
 
-print(f"========== SGD ==========")
+print("========== SGD ==========")
 
 model_sgd = NeuralNetwork().to(device)
 
@@ -145,7 +145,7 @@ print("Test Accuracy:",
       test_model(model_sgd))
 
 
-print(f"========== SGD + Momentum ==========")
+print("========== SGD + Momentum ==========")
 
 model_momentum = NeuralNetwork().to(device)
 
@@ -161,7 +161,7 @@ print("Test Accuracy:",
       test_model(model_momentum))
 
 
-print(f"========== AdaGrad ==========")
+print("========== AdaGrad ==========")
 
 model_adagrad = NeuralNetwork().to(device)
 
@@ -176,7 +176,7 @@ print("Test Accuracy:",
       test_model(model_adagrad))
 
 
-print(f"========== RMSprop ==========")
+print("========== RMSprop ==========")
 
 model_rmsprop = NeuralNetwork().to(device)
 
@@ -191,7 +191,7 @@ print("Test Accuracy:",
       test_model(model_rmsprop))
 
 
-print(f"========== Adam ==========")
+print("========== Adam ==========")
 
 model_adam = NeuralNetwork().to(device)
 
